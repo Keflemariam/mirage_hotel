@@ -1,0 +1,79 @@
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/*============== header css =============*/
+.header_area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+  }
+  
+  .header-top {
+    padding: 3px 0px;
+  }
+  
+  .header-top a {
+    color: #fff;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+  
+  .header-top a:hover {
+    color: #f3c300;
+  }
+  
+  .header-top ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .header-top ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 414px) {
+    .header-top ul li {
+      margin-right: 0px;
+    }
+  }
+  
+  .header-top .header-top-left a {
+    margin-right: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    display: inline-block;
+  }
+  
+  .header-top .header-top-right {
+    text-align: right;
+  }
+  
+  .header-top .header-top-right .header-social a {
+    color: #fff;
+    margin-left: 15px;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    font-size: 14px;
+  }
+  
+  .header-top .header-top-right .header-social a:hover {
+    color: #f3c300;
+  }
+
+
+  /*====== addition CSS ==========*/
+
+  /*============== header css =============*/
+.header_area{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+}
+
